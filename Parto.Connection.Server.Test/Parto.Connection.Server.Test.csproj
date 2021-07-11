@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Parto.Connection.Abstractions\Parto.Connection.Abstractions.csproj" />
+    <ProjectReference Include="..\Parto.Connection.Controller\Parto.Connection.Controller.csproj" />
+    <ProjectReference Include="..\Parto.Connection.Manager\Parto.Connection.Manager.csproj" />
+    <ProjectReference Include="..\Parto.Connection.Server\Parto.Connection.Server.csproj" />
+  </ItemGroup>
+
+</Project>

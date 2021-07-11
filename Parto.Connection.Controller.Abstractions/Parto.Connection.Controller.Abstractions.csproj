@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Title>Parto.Connection.Controller.Abstractions</Title>
+        <Version>0.0.7-alpha</Version>
+        <RepositoryUrl>https://github.com/PartoDev/Parto.Library</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Parto.Connection.Abstractions\Parto.Connection.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
